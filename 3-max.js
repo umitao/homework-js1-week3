@@ -1,8 +1,14 @@
 /*
-Given an array of cities create a function that returns the number of cities that start with 'A'
-
+Max
+Given an array of numbers, create a function to return the maximum 
 */
 
-var counter = 0;
+function max(numbers){
+    //your code here
+}
 
+const numbersArray1 = [1,3,5,9];
+const numbersArray2 = [7,8,5,7,3,6];
 
+console.log("Maximum number in first array is " + max(numbersArray1));
+console.log("Maximum number in second array is " + max(numbersArray2));
