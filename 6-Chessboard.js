@@ -19,3 +19,21 @@ When you have a program that generates this pattern, define a binding size
 = 8 and change the program so that it works for any size, outputting a grid
 of the given width and height
 */
+
+var size = 8;
+var chessboard = "";
+
+//line loop
+for (y = 0; y < size; y++) {
+  //char loop
+  for (x = 0; x < size; x++) {
+    if ((x + y) % 2 === 0) {
+      chessboard += " ";
+    } else {
+      chessboard += "#";
+    }
+  }
+  chessboard += "\n";
+}
+
+console.log(chessboard);

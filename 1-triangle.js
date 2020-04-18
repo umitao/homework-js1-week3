@@ -17,3 +17,22 @@ console.log(abc.length);
 */
 
 //your code here
+
+//First solution
+
+var hashtag = "#";
+
+// for (i = 1; i < 8; i++) {
+//   console.log(hashtag);
+//   hashtag = hashtag + "#";
+// }
+
+// Alternative solution
+
+function hashing(hashtag) {
+  return hashtag.repeat(i);
+}
+
+for (i = 1; i < 8; i++) {
+  console.log(hashing(hashtag));
+}
